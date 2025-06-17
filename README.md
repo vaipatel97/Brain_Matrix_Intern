@@ -92,8 +92,6 @@ Export scan reports to PDF or HTML
 
 ## 📄 License
 
-This project is licensed under the MIT License.
-
 Feel free to use and modify it for educational and ethical hacking purposes.
 
 ## 🙏 Acknowledgements
