@@ -43,5 +43,71 @@ The script analyzes the entered URL against multiple phishing indicators and giv
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/vaipatel97/phishing-link-scanner.git
+   git clone https://github.com/vaipatel97/Brain_Matrix_Intern_Task1.git
    cd phishing-link-scanner
+   ```
+2. **Create a virtual environment (optional but recommended)**
+
+  ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+  ```
+3. **Install required packages**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## 🚀 Usage
+Run the scanner with:
+  ```bash
+      python phishing_link_scanner.py
+  ```
+  Then enter the URL when prompted:
+  
+  🔗 Enter URL to scan: http://secure-login.mybank.example.com/update
+
+## 🧪 Example Output
+
+🔍 Scanning URL: http://secure-login.mybank.example.com/update
+
+⚠️ Suspicious keyword found: login
+
+⚠️ Domain contains hyphen ('-')
+
+⚠️ URL is too long.
+
+⚠️ Unable to verify domain age.
+
+🚨 HIGH RISK: This link may be a phishing URL!
+
+## 🛠️ Future Improvements
+
+GUI version with Tkinter or PyQt
+
+Integration with VirusTotal or PhishTank API
+
+Email and webpage link scanner
+
+Export scan reports to PDF or HTML
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+Feel free to use and modify it for educational and ethical hacking purposes.
+
+## 🙏 Acknowledgements
+
+Developed by Vaibhav Patel as a cybersecurity learning project.
+
+Special thanks to the open-source Python community.
+
+
+
+
+
+
+
+
+
+
